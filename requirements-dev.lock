@@ -12,12 +12,84 @@
 -e file:.
 asgiref==3.8.1
     # via django
+asttokens==2.4.1
+    # via stack-data
+certifi==2024.7.4
+    # via requests
+charset-normalizer==3.3.2
+    # via httpie
+    # via requests
+decorator==5.1.1
+    # via ipython
+defusedxml==0.7.1
+    # via httpie
 django==5.0.7
+    # via django-extensions
     # via django-model-utils
+    # via djangorestframework
+    # via task-master
+django-extensions==3.2.3
     # via task-master
 django-model-utils==4.5.1
     # via task-master
+djangorestframework==3.15.2
+    # via task-master
+executing==2.0.1
+    # via stack-data
+httpie==3.2.3
+idna==3.7
+    # via requests
+ipython==8.26.0
+    # via task-master
+jedi==0.19.1
+    # via ipython
+markdown-it-py==3.0.0
+    # via rich
+matplotlib-inline==0.1.7
+    # via ipython
+mdurl==0.1.2
+    # via markdown-it-py
+multidict==6.0.5
+    # via httpie
+parso==0.8.4
+    # via jedi
+pexpect==4.9.0
+    # via ipython
+pip==24.2
+    # via httpie
+prompt-toolkit==3.0.47
+    # via ipython
 psycopg2-binary==2.9.9
     # via task-master
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.3
+    # via stack-data
+pygments==2.18.0
+    # via httpie
+    # via ipython
+    # via rich
+pysocks==1.7.1
+    # via requests
+requests==2.31.0
+    # via httpie
+    # via requests-toolbelt
+requests-toolbelt==1.0.0
+    # via httpie
+rich==13.7.1
+    # via httpie
+setuptools==72.1.0
+    # via httpie
+six==1.16.0
+    # via asttokens
 sqlparse==0.5.1
     # via django
+stack-data==0.6.3
+    # via ipython
+traitlets==5.14.3
+    # via ipython
+    # via matplotlib-inline
+urllib3==2.2.2
+    # via requests
+wcwidth==0.2.13
+    # via prompt-toolkit
