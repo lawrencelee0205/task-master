@@ -6,3 +6,5 @@ Task master is a project to manage the task and progress of project in a smart w
 ### Local development setup
 1. run `rye sync`.
 2. run `docker compose up -d`.
+
+1 Add string. 
