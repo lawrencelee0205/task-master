@@ -1,0 +1,47 @@
+# Ignore sqlite database
+db.sqlite3
+
+# Ignore migrations and pycache in migrations folder
+migrations/__pycache__/
+migrations/*.pyc
+
+# Ignore local settings
+local_settings.py
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# Log files
+*.log
+
+# Configuration files
+.env
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
+.DS_Store
+
+# Test artifacts
+*.coverage
+coverage/
+test-results/
+
+# Documentation
+docs/
+
+# Other common patterns
+*.egg-info/
+*.egg
+node_modules/
